@@ -1,0 +1,12 @@
+{
+    "target_property": "Eea",
+    "target_value": 3.2,
+    "tolerance": 0.1,
+    "constraints": {
+        "Egb": [1.0, 2.0],
+        "EPS": [0.5, 1.5],
+        "PE_I": [0.0, 0.8],
+        "OPV": [1.2, 2.5]
+    },
+    "lambda_constraint": 10.0
+}

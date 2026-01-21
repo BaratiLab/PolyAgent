@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pt
+*.ckpt
+optimized_polymers/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+.env/
+
+# Training / logs
+runs/
+optimized_polymers/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store

@@ -1,0 +1,50 @@
+[project]
+name = "PolyAgent"
+version = "0.1.0"
+description = "Generative models for polymer structure optimisation,modification and property prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "mcp[cli]>=1.21.0",
+    "fastmcp>=2.12.4",
+    # Core ML stack
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+    "torchvision>=0.23.0",
+    "torchmetrics>=1.8.2",
+    "transformers==4.30.2",
+    "tensorboard>=2.20.0",
+    # Scientific Python
+    "numpy>=1.17.2,<2.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "matplotlib>=3.10.7",
+    # Chemistry / RDKit
+    "rdkit-pypi>=2022.9.5",
+    "rdkit>=2025.9.1",
+    # General utilities
+    "tqdm>=4.36.1",
+    "absl-py>=1.4.0",
+    "arrow>=1.2.3",
+    "pydantic>=2.12.4",
+    "pyyaml>=6.0.3",
+    "sentencepiece>=0.2.1",
+    # Notebooks / dev UX
+    "ipykernel>=7.0.1",
+    "jupyterlab>=4.4.9",
+]
+
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=5.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

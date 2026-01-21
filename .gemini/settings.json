@@ -1,0 +1,35 @@
+{
+  "ide": {
+    "hasSeenNudge": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "mcpServers": {
+    "Generation_mcp": {
+      "command": "/home/vani/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/home/vani/mcp_servers/polyAgent/OMG_mcp",
+        "run",
+        "mcp",
+        "run",
+        "main.py"
+      ]
+    },
+    "Property_mcp": {
+      "command": "/home/vani/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/home/vani/mcp_servers/polyAgent/TransPolymer_mcp",
+        "run",
+        "mcp",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+  
+}
