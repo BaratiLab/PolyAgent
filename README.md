@@ -17,7 +17,7 @@ This MCP server depends on two local polymer libraries and must be installed in 
 
 ```bash
 git clone https://github.com/Vani-Nigam07/Polymer-Agent1
-git clone https://github.com/BARATI-LAB/open_macromolecule-polyagent.git
+git clone https://github.com/Vani-Nigam07/Polymer-Agent2
 
 pip install -e ./transpolymer-polyagent
 pip install -e ./open_macromolecule-polyagent
