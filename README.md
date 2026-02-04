@@ -1,4 +1,4 @@
-# PolyAgent: LLM Agent for Polymer Discovery
+# Polymer-Agent: LLM Agent for Polymer Discovery
 
 An MCP server for polymer inverse design and property optimization.
 
